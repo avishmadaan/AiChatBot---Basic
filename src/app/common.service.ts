@@ -14,7 +14,7 @@ export class CommonService {
 
     const headers = new HttpHeaders({
       'Content-Type':'application/json',
-      'Authorization':'Bearer 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'
+      'Authorization':'Bearer {{openAi Key}}'
     });
 
     const data = {
